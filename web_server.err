@@ -1,0 +1,357 @@
+C:\Users\zaawar.ejaz\AppData\Local\Programs\Python\Python314\Lib\site-packages\langchain_core\utils\pydantic.py:42: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1 import BaseModel as BaseModelV1
+INFO:     Started server process [24096]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_global_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Research Manager: structured-output invocation failed (structured output returned no parsed result); retrying once as free text
+Trader: structured-output invocation failed (structured output returned no parsed result); retrying once as free text
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Portfolio Manager: structured-output invocation failed (structured output returned no parsed result); retrying once as free text
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+
+1 Failed download:
+['SPY']: CertificateVerifyError('Failed to perform, curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Prices for settling NVDA on 2026-10-20 were unavailable: Yahoo Finance request failed: CertificateVerifyError
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Reddit RSS 429 for r/wallstreetbets+stocks+investing · NVDA — backing off 66.3s then retrying once
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_global_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_indicators: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Research Manager: structured-output invocation failed (1 validation error for ResearchPlan
+rationale
+  Field required [type=missing, input_value={'recommendation': 'Overw...on would turn bearish.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing); retrying once as free text
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Prices for settling NVDA on 2026-10-20 were unavailable: Yahoo Finance request failed: CertificateVerifyError
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Prices for settling NVDA on 2026-10-21 were unavailable: Yahoo Finance request failed: CertificateVerifyError
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_global_news: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_indicators: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.
+Cookie/crumb fetch failed (CertificateVerifyError), continuing without crumb
+Vendor 'yfinance' unavailable for get_stock_data: Yahoo Finance request failed: CertificateVerifyError; trying next vendor.
+Vendor 'twelvedata' unavailable for get_stock_data: Twelve Data request failed: HTTPError; trying next vendor.

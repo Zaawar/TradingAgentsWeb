@@ -1,0 +1,13 @@
+{
+  "analysts": [
+    "market",
+    "social",
+    "news",
+    "fundamentals"
+  ],
+  "research_depth": 1,
+  "llm_provider": "google",
+  "quick_think_llm": "gemini-3.1-flash-lite",
+  "deep_think_llm": "gemini-3.5-flash",
+  "output_language": "English"
+}
