@@ -23,6 +23,7 @@ import random
 import re
 import time
 import xml.etree.ElementTree as ET
+import threading
 from collections.abc import Iterable
 from datetime import UTC, datetime, timedelta
 from urllib.error import HTTPError
@@ -33,6 +34,33 @@ from tradingagents.dataflows.date_window import coverage_gap, in_window
 from tradingagents.dataflows.symbols import crypto_base
 
 logger = logging.getLogger(__name__)
+
+# Reddit allows roughly one anonymous request per minute per IP. A backtest
+# sweeps many cells (and often the same ticker across dates), so without a
+# cache every cell re-hits Reddit and trips a 429 -> 60s stall. Cache the raw
+# fetched posts in-process: successes for a while, failures briefly so a
+# transient rate limit can be retried.
+_REDDIT_CACHE_TTL_OK = 1800.0
+_REDDIT_CACHE_TTL_FAIL = 60.0
+_reddit_cache: dict = {}
+_reddit_cache_lock = threading.Lock()
+
+
+def _reddit_cache_get(key):
+    with _reddit_cache_lock:
+        entry = _reddit_cache.get(key)
+    if entry is None:
+        return None, False
+    ts, value, ok = entry
+    ttl = _REDDIT_CACHE_TTL_OK if ok else _REDDIT_CACHE_TTL_FAIL
+    if time.time() - ts > ttl:
+        return None, False
+    return value, True
+
+
+def _reddit_cache_set(key, value, ok):
+    with _reddit_cache_lock:
+        _reddit_cache[key] = (time.time(), value, ok)
 
 
 def _within_window(posts, start_date, end_date):
@@ -200,6 +228,12 @@ def _fetch_subreddit_rss(
     failed fetch as "no posts found" hands the sentiment analyst an absence of
     discussion that was never observed (#1295).
     """
+    key = (ticker.upper(), sub, limit)
+    cached, hit = _reddit_cache_get(key)
+    if hit:
+        logger.debug("Reddit RSS cache hit for r/%s · %s", sub, ticker)
+        return cached
+
     url = _RSS.format(sub=sub, qs=_search_qs(ticker, limit))
     req = Request(url, headers={"User-Agent": _UA})
     try:
@@ -216,13 +250,17 @@ def _fetch_subreddit_rss(
                 sub, ticker, wait,
             )
             time.sleep(wait)
-            return _fetch_subreddit_rss(ticker, sub, limit, timeout, _retry=False)
+            result = _fetch_subreddit_rss(ticker, sub, limit, timeout, _retry=False)
+            _reddit_cache_set(key, result, result is not None)
+            return result
         logger.warning("Reddit RSS fetch failed for r/%s · %s: %s", sub, ticker, exc)
+        _reddit_cache_set(key, None, False)
         return None
     except (OSError, http.client.HTTPException, ET.ParseError) as exc:
         # OSError covers URLError/TimeoutError/connection resets; HTTPException
         # covers chunked-transfer errors (IncompleteRead/BadStatusLine, #1024).
         logger.warning("Reddit RSS fetch failed for r/%s · %s: %s", sub, ticker, exc)
+        _reddit_cache_set(key, None, False)
         return None
 
     posts = []
@@ -242,6 +280,7 @@ def _fetch_subreddit_rss(
             "subreddit": category_el.get("term") if category_el is not None
             else (sub if "+" not in sub else ""),
         })
+    _reddit_cache_set(key, posts, True)
     return posts
 
 
